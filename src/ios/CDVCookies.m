@@ -40,4 +40,18 @@
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
+- (void)clearSpecifiedCookieByName:(CDVInvokedUrlCommand*)command
+{
+    NSHTTPCookie *cookie;
+    NSHTTPCookieStorage *storage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    for (cookie in [storage cookies]) {
+        if ([cookie.name isEqualToString:(NSString *)[command argumentAtIndex:0]]) {
+            [storage deleteCookie:cookie];
+        }
+    }
+
+    CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
 @end
