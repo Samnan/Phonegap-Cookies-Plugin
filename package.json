@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MBPSCD/Phonegap-Cookies-Plugin.git"
+    "url": "https://github.com/MBPSCD/Phonegap-Cookies-Plugin"
   },
   "author": "Ernests Karlsons",
   "bugs": {
