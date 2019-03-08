@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git"
+    "url": "git+https://github.com/MBPSCD/Phonegap-Cookies-Plugin.git"
   },
   "author": "Ernests Karlsons",
   "bugs": {
-    "url": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin/issues"
+    "url": "https://github.com/MBPSCD/Phonegap-Cookies-Plugin/issues"
   },
-  "homepage": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin#readme"
+  "homepage": "https://github.com/MBPSCD/Phonegap-Cookies-Plugin#readme"
 }
