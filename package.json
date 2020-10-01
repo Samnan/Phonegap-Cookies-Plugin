@@ -1,6 +1,6 @@
 {
   "version": "0.0.2",
-  "name": "cordova-remove-cookies",
+  "name": "cordova-plugin-cookies",
   "cordova_name": "Cookies",
   "description": "Cordova Cookies Plugin",
   "license": "Apache 2.0",
@@ -11,7 +11,7 @@
   ],
   "engines": [],
   "cordova": {
-    "id": "com.bez4pieci.cookies",
+    "id": "cordova-plugin-cookies",
     "platforms": [
       "ios",
       "android"
@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MBPSCD/Phonegap-Cookies-Plugin"
+    "url": "https://github.com/Samnan/Phonegap-Cookies-Plugin"
   },
   "author": "Ernests Karlsons",
   "bugs": {
-    "url": "https://github.com/MBPSCD/Phonegap-Cookies-Plugin/issues"
+    "url": "https://github.com/Samnan/Phonegap-Cookies-Plugin/issues"
   },
-  "homepage": "https://github.com/MBPSCD/Phonegap-Cookies-Plugin#readme"
+  "homepage": "https://github.com/Samnan/Phonegap-Cookies-Plugin#readme"
 }
